@@ -1,5 +1,13 @@
 ## LilyGo-T-Beam-GPS-Reset
-Arduino script to configure the u-blox GPS on the LilyGo T-Beam
+Arduino script to configure the u-blox GPS on the LilyGo T-Beam connected to Stratux Europe Edition
+
+### Settings for https://github.com/VirusPilot/SoftRF
+- GPS_BAUD_RATE 57600
+- GPS_UPDATE_RATE 5
+
+### Revert to default settings (defines need to be changed accordingly)
+- GPS_BAUD_RATE 9600
+- GPS_UPDATE_RATE 1
 
 ### Requirements:
 - install Arduino IDE (v1.8) and add "https://dl.espressif.com/dl/package_esp32_index.json" into the Additional Board Manager URLs
