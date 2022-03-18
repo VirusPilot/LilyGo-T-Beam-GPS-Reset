@@ -2,16 +2,16 @@
 Arduino script to configure the u-blox GPS on the LilyGo T-Beam
 
 ### Requirements:
-- install Arduino IDE (v1.8.xx)
+- install Arduino IDE (v1.8)
 - add "https://dl.espressif.com/dl/package_esp32_index.json" into the Additional Board Manager URLs
 - open the Arduino Boards Manager and search for ESP32 and press install button for the ESP32 by Espressif Systems
-- install (deprecated) SparkFun_Ublox_Arduino_Library: https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
+- install https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library (deprecated version, do not use v2.0)
 
-### Steps:
-- copy Github SoftRF folder to <My Documents>/Arduino/SoftRF
-- copy Github libraries folder to <My Documents>/Arduino/libraries
+### Prepare:
+- copy Github SoftRF folder to ~/Arduino/SoftRF
+- copy Github libraries folder to ~/Arduino/libraries
 
-### Compiling:
+### Compile:
 - open u-blox-reset sketch from File -> Open menu
 - Select Tools -> Board -> ESP32 Dev Module
 - Select Tools -> Flash Mode -> DIO
