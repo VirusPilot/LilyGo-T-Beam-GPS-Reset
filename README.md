@@ -16,7 +16,7 @@
   - GPS_UPDATE_RATE 1
 
 ### Requirements:
-- install Arduino IDE (v1.8) and add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json^` into the Additional Board Manager URLs
+- install Arduino IDE (v1.8) and add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` into the Additional Board Manager URLs
 - open the Arduino Boards Manager, search and install `esp32 by Espressif Systems`
 - open the Arduino Library Manager, search and install `SparkFun u-blox Arduino Library` (only use deprecated version v1.8, do not use v2.0)
 
