@@ -4,10 +4,8 @@
 
 SFE_UBLOX_GPS myGPS;
 
-//#define GPS_BAUD_RATE 9600 /* default */
-//#define GPS_UPDATE_RATE 1 /* default */
-#define GPS_BAUD_RATE 57600 /* required for Stratux SoftRF version */
-#define GPS_UPDATE_RATE 5 /* required for Stratux SoftRF version */
+#define GPS_BAUD_RATE 9600
+#define GPS_UPDATE_RATE 1
 
 void setup() {
   initBoard(); delay(1500);
