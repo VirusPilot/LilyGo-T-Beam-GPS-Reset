@@ -11,7 +11,8 @@ Arduino sketch to reset the u-blox M6/M7/M8 GPS on a **LilyGo T-Beam v1.0 and v1
 ### Requirements:
 - install Arduino IDE (v1.8) and add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` into the Additional Board Manager URLs
 - open the Arduino Boards Manager, search and install `esp32 by Espressif Systems`
-- open the Arduino Library Manager, search and install `SparkFun u-blox Arduino Library` (only use deprecated version v1.8, do not use v2.0)
+- open the Arduino Library Manager, search and install `SparkFun u-blox Arduino Library` (only use deprecated version v1.8.11, do not use v2.x)
+- open the Arduino Library Manager, search and install `AXP202X_Library`
 
 ### Prepare:
 - download or clone `https://github.com/VirusPilot/LilyGo-T-Beam-GPS-Reset`
