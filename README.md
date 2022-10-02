@@ -18,7 +18,7 @@ Arduino sketch to reset the u-blox M6/M7/M8 GPS on a **LilyGo T-Beam v1.0 and v1
 - copy `LilyGo-T-Beam-GPS-Reset` folder to `~/Documents/Arduino/LilyGo-T-Beam-GPS-Reset`
 
 ### Compile:
-- open `u-blox-reset.ino` sketch from File -> Open menu
+- open `LilyGo-T-Beam-GPS-Reset.ino` sketch from File -> Open menu
 - Select Tools -> Board -> ESP32 Dev Module
 - Select Tools -> Upload Speed -> 921600
 - Select Tools -> CPU Frequency -> 80MHz
