@@ -34,7 +34,7 @@
 #define RADIO_DIO1_PIN              33
 #define RADIO_BUSY_PIN              32
 
-#define GPS_BAND_RATE      9600
+#define GPS_BAUD_RATE               9600
 
 #ifdef T_BEAM_V10
 #include <axp20x.h>
@@ -90,7 +90,7 @@ void initBoard()
 {
     Serial.begin(115200);
     Serial.println("\ninitBoard");
-    Serial1.begin(GPS_BAND_RATE, SERIAL_8N1, GPS_RX_PIN, GPS_TX_PIN);
+    Serial1.begin(GPS_BAUD_RATE, SERIAL_8N1, GPS_RX_PIN, GPS_TX_PIN);
     SPI.begin(RADIO_SCLK_PIN, RADIO_MISO_PIN, RADIO_MOSI_PIN, RADIO_CS_PIN);
     initPMU();
 }
